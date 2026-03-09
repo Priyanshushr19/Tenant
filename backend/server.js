@@ -1,6 +1,6 @@
 import express from 'express';
 import { configDotenv } from "dotenv"
-dotenv.config();
+configDotenv(); 
 import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
