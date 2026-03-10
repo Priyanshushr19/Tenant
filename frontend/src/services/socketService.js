@@ -13,7 +13,8 @@ class SocketService {
       this.socket = null
     }
 
-    const serverUrl = 'http://localhost:5000'
+    // const serverUrl = 'http://localhost:5000'
+    const serverUrl= 'https://tenant-w8y7.onrender.com'
 
     this.socket = io(serverUrl, {
       auth: { token },
