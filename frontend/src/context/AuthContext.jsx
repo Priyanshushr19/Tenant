@@ -1,6 +1,10 @@
 import { createContext, useState, useContext, useEffect } from 'react'
 import axios from 'axios'
 
+
+axios.defaults.baseURL = "https://tenant-w8y7.onrender.com"
+axios.defaults.withCredentials = true
+
 const AuthContext = createContext()
 
 export const useAuth = () => {
