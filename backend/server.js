@@ -56,6 +56,9 @@ app.use(cors({
   credentials: true
 }))
 
+app.get("/", (req,res)=>{
+  res.send("API is running 🚀");
+});
 
 // Rate limiting (Redis-backed when available)
 app.use('/api/auth', authLimiter);
