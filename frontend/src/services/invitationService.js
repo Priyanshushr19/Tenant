@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'http://localhost:5000/api/invitations'
+const API_URL = 'https://tenant-w8y7.onrender.com/api/invitations'
 
 const invitationApi = axios.create({
   baseURL: API_URL
