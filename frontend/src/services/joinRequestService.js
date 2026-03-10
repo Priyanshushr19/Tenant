@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_BASE = 'http://localhost:5000'
+const API_BASE = 'https://tenant-w8y7.onrender.com'
 const API_URL = `${API_BASE}/api/join-requests`
 
 const joinRequestApi = axios.create({
