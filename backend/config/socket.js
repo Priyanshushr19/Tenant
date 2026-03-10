@@ -26,8 +26,7 @@ export const initializeSocket = (server) => {
       origin: process.env.FRONTEND_URL || 'https://tenant-frontend-zpux.onrender.com',
       credentials: true
     },
-    transports: ['websocket'] // ✅ important
-  })
+    transports: ['websocket', 'polling']  })
 
   ioInstance = io
 
